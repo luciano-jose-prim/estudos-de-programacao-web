@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Integração de banco de dados com PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> Integrando Banco de Dados com PHP - exercício 4 </h1>
+
+ <form action="exercicio4.php" method="post">
+  <fieldset>
+   <legend> cadstro de médicos </legend>
+
+   <label class="alinha"> Forneça o nome do médico: </label>
+   <input type="text" name="nome-medico" autofocus placeholder="Forneça o nome do médico para o cadastro..."> <br>
+
+   <label class="alinha"> Forneça o CRM do médico: </label>
+   <input type="text" name="crm"> <br>
+   
+   <button type="submit" name="cadastro-medico"> Cadastrar os dados do médico </button>
+  </fieldset>
+
+  <fieldset>
+   <legend> Cadastro de pacientes </legend>
+   <label class="alinha"> Forneça o nome do paciente: </label>
+   <input type="text" name="nome-paciente" placeholder="Nome do paciente..."> <br>
+
+   <label class="alinha"> Forneça o CRM do médico responsável pelo atendimento: </label>
+   <input type="text" name="crm-atendimento"> <br>
+
+   <label class="alinha"> Data da internação: </label>
+   <input type="date" name="data-internacao">
+
+   <button name="cadastro-paciente"> Cadastrar os dados do paciente </button>
+  </fieldset>
+
+  <fieldset>
+   <legend> Pesquisa por médico </legend>
+   <label class="alinha"> Forneça o nome do médico a ser pesquisado: </label>
+   <input type="text" name="pesquisa-nome-medico"> <br>
+
+   <button name="pesquisa-medico"> Pesquisar nome do médico </button>
+  </fieldset>
+ </form>    
+</body> 
+</html> 

@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Aplicações Web com PHP - prática com modularização e includes </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body>
+ <h1> Funções de usuário e includes em PHP - Exercício 8 da ListaL4 </h1>
+
+ <form action="exercicio8.php" method="post">
+  <fieldset>
+   <legend> Cálculo de média das notas de um aluno  </legend>
+
+   <label class="alinha"> Forneça o valor da nota1: </label>
+   <input type="number" name="nota1" min="0" max="10" autofocus step="0.1">  <br> 
+
+   <label class="alinha"> Forneça o valor da nota2: </label>
+   <input type="number" name="nota2" min="0" max="10" autofocus step="0.1">  <br>
+
+   <label class="alinha"> Forneça o valor da nota3: </label>
+   <input type="number" name="nota3" min="0" max="10" autofocus step="0.1">  <br> <br>
+
+   <label> Selecione o tipo de média a ser calculada: </label> <br>
+   <input type="radio" name="media" value="Aritmética Simples"> Calcular a média aritmética simples <br>
+   <input type="radio" name="media" value="Aritmética Ponderada"> Calcular a média aritmética ponderada <br>
+
+   <button> Efetuar o cálculo </button>
+  </fieldset>
+ </form>  
+</body> 
+</html> 

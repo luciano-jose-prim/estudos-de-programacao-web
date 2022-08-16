@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Oswald&display=swap');
+
+body {
+ font-family: "Barlow Condensed";
+ margin: 0;
+}
+
+h1 {
+ text-align: center;
+ border-bottom: 1px solid #555;
+ background-color: #dcdcdc;
+ margin: 0;
+ margin-bottom: 30px;
+ box-shadow: 0 0 5px 5px #004208;
+ text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+}
+
+label.alinha {
+ width: 270px; 
+ display: inline-block;
+ margin-bottom: 10px;
+ text-align: right;
+}
+
+input[name*="aluno"] {
+ width: 270px;
+}
+
+fieldset {
+ width: 45%;
+ background: rgba(200,200,200, 0.3);
+ margin: auto;
+ border-radius: 10px;
+ box-shadow: 3px 3px 5px #555;
+ margin-top: 25px;
+ padding: 30px;
+ padding-bottom: 5px;
+}
+
+input, button {
+ font-family: Oswald;
+}
+
+button {
+ font-weight: bold;
+ font-size: 17px;
+ margin: auto;
+ margin-top: 20px;
+ display: block; 
+ width: 300px;
+ height: 40px;
+}
+
+
+table {
+ border: 1px solid #444;
+ width: 50%;
+ margin: 20px auto;
+ background-color: rgba(132, 198, 140, 0.1);
+}
+
+td, th {
+ border: 1px solid #444; 
+}
+
+th {
+ background: #004208;
+ color: #fff;
+}
+
+td {
+ text-align: center;
+}
+
+p {
+ text-align: center;
+ border: 5px 5px 5px 2px #004208;;
+ background: #D5E7D7;
+ width: 50%;
+ margin: 20px auto;
+}
+
+span {
+ font-weight: bold;
+ font-style: italic;
+ color: #002E06;
+}
+
+textarea {
+ resize: none;
+ width: 250px;
+ height: 150px;
+ font-family: "Barlow Condensed";
+ vertical-align: top; /*alinhamento vertical do texto em relação ao textarea*/
+ margin-top: 5px;
+}
+
+label.tamanho-diferente {
+ width: 320px;
+}

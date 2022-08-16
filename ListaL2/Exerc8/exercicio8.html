@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Aplicações Web com PHP - vetores </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body>
+ <h1> Vetores em PHP - Exercício 8 da ListaL2 </h1>
+
+ <form action="exercicio8.php" method="post">
+  <fieldset>
+   <legend> Fármacia AAA - aquisição on-line de Medicamentos </legend>
+
+   <label> Escolha, abaixo, os medicamentos a serem adquiridos: </label> <br>
+   <!--ATENÇÃO ao uso de colchetes após o name do checkbox-->
+   <input type="checkbox" name="medicamentos-comprados[]" value="Analgésico"> Analgésico <br>
+   <input type="checkbox" name="medicamentos-comprados[]" value="Ansiolítico"> Ansiolítico <br>
+   <input type="checkbox" name="medicamentos-comprados[]" value="Antiácido"> Antiácido <br> <br>
+   
+   <input type="checkbox" name="idade[]" value="Sim"> Marque esta opção se você possui 60 anos ou mais <br>
+   
+   <button type="submit"> Processar compra de medicamentos </button>
+  </fieldset>
+ </form>  
+</body> 
+</html> 

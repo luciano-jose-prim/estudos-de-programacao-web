@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Aplicações Web com PHP - vetores </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body>
+ <h1> Vetores em PHP - Exercício 4 da ListaL2 </h1>
+
+ <form action="exercicio4.php" method="post">
+  <fieldset>
+   <legend> Loja on-line - aquisição de produtos </legend>
+
+   <label> Escolha, abaixo, os produtos a serem adquiridos: </label> <br>
+   <!--ATENÇÃO ao uso de colchetes após o name do checkbox-->
+   <input type="checkbox" name="produtos-comprados[]" value="Impressora"> Impressora <br>
+   <input type="checkbox" name="produtos-comprados[]" value="Celular"> Celular <br>
+   <input type="checkbox" name="produtos-comprados[]" value="Notebook"> Notebook <br>  
+   
+   <button> Processar dados da compra </button>
+  </fieldset>
+ </form>  
+</body> 
+</html> 
